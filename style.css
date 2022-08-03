@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2? family= Charm:wght@400;700 & display=swap');
+@import url('https://fonts.googleapis.com/css2? família=Nanum+Gótico:wght@700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2? família=Fonte+Sans+Pro:wght@200&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #f7b538;
+  font-family: 'Nanum Gothic', 'sans serif';
+}
+.choice{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 85vw;
+  height: 10vh;
+  margin:5vh auto;
+  border-radius: 2em 2em 2em;
+  background-color: #fdedd5;
+}
+header img{
+  width: 7vw;
+  height: 4.5vh;
+  background-color: #fdedd5;
+}
+header p{
+  font-size: 2.5em;
+  font-family: 'Charm', 'cursiva';
+}
+main{
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  margin: 0 auto;
+}
+.price{
+  width: 80vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+}
+h1 h2{
+  font-family: 'Sans Pro', 'sans-serif';
+}
+.price p{
+  font-size: 2em;
+}
+.description{
+  width: 85vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.description p{
+  font-size: 1.5em;
+}
+footer{
+  margin: 5vh  auto;
+  width: 80vw;
+  height: 35vh;
+}
+.option{
+  width: 4vw;
+  height: 2vh;
+  border: solid 1px;
+  border-radius: 100%;
+  background-color: black;
+}
+.notOption{
+  width: 4vw;
+  height: 2vh;
+  border: solid 1px;
+  border-radius: 100%;
+  margin-left: 46vw;
+  margin-top: -2.8vh;
+}
+.bag{
+  font-size: 1.5em;
+  margin-left: 7vw;
+  margin-top: -2.8vh;
+}
+.jar{
+  font-size: 1.5em;
+  margin-left: 52vw;
+  margin-top: -2.7vh;
+}
+.unity{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 85vw;
+  height: 10vh;
+  margin:5vh auto;
+  border-radius: 2em 2em 2em;
+  border: solid 1px;
+  font-size: 2em;
+}
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85vw;
+  height: 10vh;
+  margin:5vh auto;
+  border-radius: 2em 2em 2em;
+  font-size: 1.3em;
+  color: white;
+  border: solid 1px black;
+  background-color: black;
+}
+
+
+
+
